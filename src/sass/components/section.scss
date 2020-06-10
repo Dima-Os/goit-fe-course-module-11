@@ -1,0 +1,18 @@
+.section {
+  padding: 44px 0 0;
+  color: map-get($colors, secondary-color);
+  text-align: center;
+
+  &__description {
+    font-family: $secondary-font;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 1.5rem;
+    color: map-get($colors, description-color);
+
+    &--shrank {
+      padding: 0 130px;
+      margin-bottom: 88px;
+    }
+  }
+}

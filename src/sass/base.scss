@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: $main-font;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font: inherit;
+  color: inherit;
+  text-transform: inherit;
+  cursor: pointer;
+  outline: none;
+}

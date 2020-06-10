@@ -1,0 +1,29 @@
+.team-list {
+  @extend %section-list;
+  margin-bottom: 82px;
+  &__item:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+    box-shadow: 10px 10px map-get($colors, shadow-color);
+  }
+  &__overlay-wrapper {
+    position: relative;
+    transition: all 200ms ease-in-out;
+    margin-bottom: 28px;
+  }
+  &__name {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  &__ocupation {
+    font-size: 1.4rem;
+    font-style: italic;
+    font-family: $secondary-font;
+    color: map-get($colors, description-color);
+  }
+}
+
+.team-list__item:hover .team-list__overlay-wrapper {
+  transform: translateX(-10px) translateY(-10px);
+}

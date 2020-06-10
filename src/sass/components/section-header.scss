@@ -1,0 +1,26 @@
+.section-header {
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+
+  &__wrapper {
+    text-transform: none;
+    display: block;
+    font-family: $heading-wrapper-font;
+    font-size: 2.4rem;
+    margin-bottom: 12px;
+
+    &--raised {
+      font-size: 72px;
+      margin-bottom: 16px;
+    }
+  }
+
+  &--raised {
+    font-size: 150px;
+    line-height: 134px;
+    color: map-get($colors, main-color);
+    padding: 0 50px;
+    margin-bottom: 116px;
+  }
+}

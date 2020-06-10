@@ -1,0 +1,6 @@
+.site-footer {
+  @extend %section-list;
+  align-items: baseline;
+  padding: 12px 0;
+  border-top: 1px solid map-get($colors, footer-border-color);
+}
